@@ -78,7 +78,7 @@ const request = require('request-promise');
     console.log('market cap calculated: ', { marketCapUSD, marketCapCNY });
 
     console.log(`
-      Candy 每日市值、价值数据播报(${moment().format('YYYY年MM月DD日')})：
+      Candy 市值、价值数据播报(${moment().format('YYYY年MM月DD日')})：
 
       1. 代币总值：${coinValueUSD.toFixed(2)} 美元，合 ${coinValueCNY.toFixed(2)} 人民币；
       2. 市场价值：${marketCapUSD.toFixed(2)} 美元，合 ${marketCapCNY.toFixed(2)} 人民币；
